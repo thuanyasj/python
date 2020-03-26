@@ -1,0 +1,31 @@
+
+
+# Arithmetic Operators - python - introduction
+# Desafio 3 - Read two integers from STDIN and print three lines where:
+#             The first line contains the sum of the two numbers.
+#             The second line contains the difference of the two numbers (first - second).
+#             The third line contains the product of the two numbers.
+# Answer:
+
+a = int(input())
+b = int(input())
+sum_a = a + b
+dif_a = a - b 
+mult_a = a*b 
+print (sum_a)
+print (dif_a)
+print (mult_a)
+
+# Python: Division - python - introduction
+# Read two integers and print two lines. The first line should contain integer division,  a/b.
+#The second line should contain float division,  a/b .
+#You don't need to perform any rounding or formatting operations.
+# Answer:
+
+a = int(input())
+b = int(input())
+float 
+int_a = a//b
+parc_a = a/b
+print(int_a)
+print(parc_a)
