@@ -29,3 +29,22 @@ int_a = a//b
 parc_a = a/b
 print(int_a)
 print(parc_a)
+
+# Loops 
+# Task 
+# Read an integer N. For all non-negative integers i<N, print i**2. See the sample for details.
+# Input Format
+# The first and only line contains the integer, N .
+# Constraints  1<=N<=20
+# Output Format
+# Print  lines, one corresponding to each .
+
+if __name__ == '__main__':
+    n = int(input())
+
+i = 0
+while i < n: 
+    print (i**2)
+    i +=1 # This is the same as i = i + 1
+    if i > 20:
+        break
